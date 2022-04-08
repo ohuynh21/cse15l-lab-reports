@@ -4,7 +4,7 @@
 ## This is a smaller Heading
 ### This is a smaller Heading
 [This is a link to Google](https://www.google.com/)
-![This is an Image of Geisel](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/fa/87/a4/geisel-library.jpg)
+![Image](https://commonmark.org/help/images/favicon.png)
 
 > This is block quote (indented in a block)
 
