@@ -1,5 +1,5 @@
 *This is an example of Italicizing*
-**This is an example of Bolding*
+**This is an example of Bolding**
 # This is a large Heading
 ## This is a smaller Heading
 ### This is a smaller Heading
