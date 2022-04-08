@@ -31,3 +31,7 @@ of
 ```
 print("Hello World!")
 ```
+
+[This is a link to post 1](lab-report-1-week-2.html)
+
+[This is a link to post 1](https://ohuynh21.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
