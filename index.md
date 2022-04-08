@@ -7,6 +7,8 @@
 ![This is an Image of Geisel](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/fa/87/a4/geisel-library.jpg)
 
 > This is block quote (indented in a block)
+
+
 * This is an unordered list
 * you can add more elements using the same syntax
 
