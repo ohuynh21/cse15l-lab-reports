@@ -3,6 +3,7 @@
 # This is a large Heading
 ## This is a smaller Heading
 ### This is a smaller Heading
+# This is a test for the Live Formatting in VSCode
 [This is a link to Google](https://www.google.com/)
 ![Image](https://commonmark.org/help/images/favicon.png)
 
@@ -26,4 +27,7 @@ multiple
 lines
 of
 #code
+```
+```
+print("Hello World!")
 ```
