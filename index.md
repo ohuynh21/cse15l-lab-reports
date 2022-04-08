@@ -4,7 +4,7 @@
 ## This is a smaller Heading
 ### This is a smaller Heading
 [This is a link to Google](https://www.google.com/)
-![This is an Image of Geisel](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGeisel_Library&psig=AOvVaw1zMT3H6omnPEguDLu8ZnrZ&ust=1649532426266000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCMDd6aSZhfcCFQAAAAAdAAAAABAI)
+![This is an Image of Geisel](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/fa/87/a4/geisel-library.jpg)
 
 > This is block quote (indented in a block)
 * This is an unordered list
