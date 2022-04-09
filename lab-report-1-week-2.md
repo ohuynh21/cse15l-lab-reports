@@ -8,7 +8,7 @@
 
 ### Remotely Connecting
 > With VSCode installed, we now have a convenient way of viewing and modifying files as well as acessing the **Terminal** where we can run UNIX commands and connect to a remote computer. To do the latter, we first need to look up our course specific account by visiing the following [link](https://sdacs.ucsd.edu/~icc/index.php) and entering the appropriate login credentials. This is mine `cs15lsp22aep`. Next navigate over to VSCode and find the **Terminal** button at the top. Hover over it and click "New Terminal". In the box that appears type `ssh` followed by a space, your course specific account name, and `@ieng6.ucsd.edu`. It should look ike this: `ssh cs15lsp22aep@ieng6.ucsd.edu`. Press enter and provide your password, and you should see something like this:
-![Image](SSHSCREENSHOT.PNG)
+![Image](SSHSCREENSHOT.png)
 
 
 ### Trying Some Commands
