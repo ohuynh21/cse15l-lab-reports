@@ -39,7 +39,7 @@ scp "target file" "target destination"
 ![Image](SCPSCREENSHOT.png)
 
 ### Setting an SSH Key
-> So far, whenever we've tried connecting to the remote computer, it was always asked us for our password, which makes the process rather inconvenient for us. To get around this, we can set up an SSH key pair to automatically authenticate ourselves instead.
+> So far, whenever we've tried connecting to the remote computer, it has always asked us for our password, which makes the process rather inconvenient for us. To get around this, we can set up an SSH key pair to automatically authenticate ourselves instead.
 
 >To do so, use and run the command `ssh-keygen` in the terminal of your local machine and follow the prompts. It should ask you where you want to save the key, in which case just copy the file directory path in the parenthesis an press enter. You should see something like this at this step.   
 ![Image](SSHKEYS1.png)
