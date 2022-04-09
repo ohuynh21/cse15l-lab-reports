@@ -4,12 +4,12 @@
 ### Installing VSCode
 > To install VSCode on your local computer follow this [link](https://code.visualstudio.com/) and install the version that corresponds to its operating system. Press "Accept" on the prompts that appear until VScode opens on your desktop. It should look something like this:
 ![Image](VSCODESCREENSHOT.png)
----
+
 
 ### Remotely Connecting
 > With VSCode installed, we now have a convenient way of viewing and modifying files as well as acessing the **Terminal** where we can run UNIX commands and connect to a remote computer. To do the latter, we first need to look up our course specific account by visiing the following [link](https://sdacs.ucsd.edu/~icc/index.php) and entering the appropriate login credentials. This is mine `cs15lsp22aep`. Next navigate over to VSCode and find the **Terminal** button at the top. Hover over it and click "New Terminal". In the box that appears type `ssh` followed by a space, your course specific account name, and `@ieng6.ucsd.edu`. It should look ike this: `ssh cs15lsp22aep@ieng6.ucsd.edu`. Press enter and provide your password, and you should see something like this:
 ![IMAGE](SSHSCREENSHOT.PNG)
----
+
 
 ### Trying Some Commands
 > Completion of the above steps means that you are now remotely connected to a another computer. Unfortunately, there is no GUI to help us navigate its files and directories. To navigate through this computer therefore, we need to make use of UNIX commands. I have listed some of the most essential ones below:
@@ -27,7 +27,7 @@ mkdir "name"                    makes a new directory in the working directory w
 ```
 > You can enter these commands into the terminal to see how they work. For example, here is me making a new directory in the working directory using `mkdir`, then using `ls` to see that it has indeed been created
 ![Image](COMMANDSSCREENSHOT.png)
----
+
 
 ### Moving Files with `scp`
 > The scp command is one that is used to move files between two different computers. To use it, follow the format specified below. Keep in mind that you need to specify the directories of where the file is located (if it is in a different working directory) and needs to be sent as well.
@@ -35,8 +35,8 @@ mkdir "name"                    makes a new directory in the working directory w
 scp "target file" "target destination"
 ```
 > For example, this is me sending a .java file from my working directory on my local computer to the home directory of the remote computer.
+
 ![Image](SCPSCREENSHOT.png)
----
 
 ### Setting an SSH Key
 > So far, whenever we've tried connecting to the remote computer, it was always asked us for our password, which makes the process rather inconvenient for us. To get around this, we can set up an SSH key pair to automatically authenticate ourselves instead.
@@ -49,7 +49,7 @@ scp "target file" "target destination"
 scp /Users/owen/.ssh/id_rsa.pub cs15lsp22aep@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 
----
+
 ### Optimizing Remote Running
 > It is possible to enter more than one command per line, essentially allowing multiple commands to run in one line. To do this, you can separate commands using semicolons. For example, this is how you would compile and run the `HICSE15L.java` file stored on the home directory of the remote computer in one line: 
 
