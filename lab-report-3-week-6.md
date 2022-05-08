@@ -12,7 +12,6 @@
 ![Image](/L3_screenshots/editconfig.png)
 
 Double clicking the config file caused the TextEdit application to run. I used it to write what is seen above.
-
 >### Logging into the remote computer (ieng6) with new alias
 ![Image](/L3_screenshots/sshcommand.png)
 
