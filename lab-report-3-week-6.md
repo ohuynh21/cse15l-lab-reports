@@ -3,7 +3,7 @@
 
 >### Adding the config file
 ![Image](/L3_screenshots/configlocation.png)
-`config` was made by first running  `touch config` in the terminal while in the .ssh directory.
+`config` was initially made by running  `touch config` in the terminal while in the .ssh directory.
 >### Finding the hidden .ssh folder by searching for it using Cmd + Shift + G:
 ![Image](/L3_screenshots/sshfolder.png)
 
