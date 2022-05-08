@@ -1,13 +1,15 @@
 # Week 6 Lab Report
 ## Streamlining ssh Configuration
->Finding the hidden .ssh folder by searching for it using Cmd + Shift + G:
-![Image](/L3_screenshots/sshfolder.png)
 
 >### Adding the config file
 ![Image](/L3_screenshots/configlocation.png)
+`config` was made by first running  `touch config` in the terminal while in the .ssh directory.
+>### Finding the hidden .ssh folder by searching for it using Cmd + Shift + G:
+![Image](/L3_screenshots/sshfolder.png)
 
 >### Editing the config file by using the TextEdit application (Default text editor for MacOS)
 ![Image](/L3_screenshots/editconfig.png)
+Double clicking the config file caused the TextEdit application to run. I used it to write what is seen above.
 
 >### Logging into the remote server (ieng6) with new alias
 ![Image](/L3_screenshots/sshcommand.png)
@@ -18,12 +20,13 @@
 ## Setup Github Access from ieng6
 >### The public key's location is shown below:
 ![Image](/L3_screenshots/sshgit.png)
-
+The private key was obtained by first running "cat id_ed255519.pub", then highlighting and copying it from the terminal.
 >### The private key's location on ieng6 is shown below:
 ![Image](/L3_screenshots/sshieng6.png)
 
 >### Running git commands to push a change (in the repo used for the skill demonstration):
 ![Image](/L3_screenshots/changepush.png)
+Here I have created a blank file in the directory `skill-demo-real` named `change.java`. It was first added and committed to the staging area, then pushed to the origin. Before I could do this however, I had to run the command `git remote set-url origin git@github.com:ohuynh21/skill-demo-real.git` as I couldn't push when the origin was set using the https: path (as I used the https link when I cloned it).
 
 >### Link to the resulting commit:
 [Here](https://github.com/ohuynh21/skill-demo-real/commit/af418b55b8f7a36f248fa272968e582c27bc94dc)
@@ -31,9 +34,13 @@
 ## Copy whole directories with scp -r
 >### Copying the markdown-parse directory:
 ![Image](/L3_screenshots/copymdparse.png)
+*Note: Because I am recursively copying all files in markdownparse's directory, all the github files are transferred as well. This explains there are a bunch of random letters and numbers being transferred to ieng6 in addition to the core files.
+
 
 >### Running the tests (via. Makefile) on ieng6:
 ![Image](/L3_screenshots/mdparsetestonieng6.png)
+Running "make test" allows me to compile and run `MarkdownParse.java` and its tester file `MarkdownParseTest.java`. (This was created in lab 6)
 
 >### Putting it all together to copy and run the tests in one line:
 ![Image](/L3_screenshots/inoneline.png)
+
