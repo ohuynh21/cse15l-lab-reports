@@ -7,7 +7,6 @@
 [Reviewed Group's](https://github.com/brandoluu/markdown-parser)
 
 ## Test 1:
-<span style="color: red;">FAILED</span>
 ### Expected output:
 ![Image](/L4_screenshots/Test1exp.png)
 
@@ -19,15 +18,16 @@ Based on VSCode's preview, the expected output should be:
 ![Image](/L4_screenshots/Test1test.png)
 
 ### My output:
+<span style="color: red;">FAILED</span>
 ![Image](/L4_screenshots/Test1out.png)
 
 ### Reviewed Group's output:
+<span style="color: red;">FAILED</span>
 ![Image](/L4_screenshots/Test1groupout.png)
 
 
 
 ## Test 2:
-<span style="color: red;">FAILED</span>
 ### Expected output:
 ![Image](/L4_screenshots/Test2exp.png)
 
@@ -39,15 +39,16 @@ Based on VSCode's preview, the expected output should be:
 ![Image](/L4_screenshots/Test2test.png)
 
 ### My output:
+<span style="color: red;">FAILED</span>
 ![Image](/L4_screenshots/Test2out.png)
 
 ### Reviewed Group's output:
+<span style="color: red;">FAILED</span>
 ![Image](/L4_screenshots/Test2groupout.png)
 
 
 
 ## Test 3:
-<span style="color: red;">FAILED</span>
 ### Expected output:
 ![Image](/L4_screenshots/Test3exp.png)
 
@@ -59,9 +60,11 @@ Based on VSCode's preview, the expected output should be:
 ![Image](/L4_screenshots/Test3test.png)
 
 ### My output:
+<span style="color: red;">FAILED</span>
 ![Image](/L4_screenshots/Test3out.png)
 
 ### Reviewed Group's output:
+<span style="color: red;">FAILED</span>
 ![Image](/L4_screenshots/Test3groupout.png)
 
 
