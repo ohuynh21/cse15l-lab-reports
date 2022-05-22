@@ -82,7 +82,7 @@ if (closeBracket != openParen - 1){
 
 Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses?
 
-> Yes. It seems that the problem lies when there are new lines in the "[]", more than one new line in the body of the "()", and when there is no closing parenthesis after the 1 permitted new line To fix this, some conditional statements need to be written to check for the existence of \n and how many times they appear in between both the brackets and parenthesis. I think this change will get very close to the <10 line limit, but it's probably doable.
+> Yes. It seems that the problem arises when there are new lines in the "[]", more than one new line in the body of the "()", and when there is no closing parenthesis after the 1 permitted new line. To fix this, some conditional statements need to be written to check for the existence of "\n" and how many times they appear in between both the brackets and parenthesis. If it exceeds the limit, skip to the next "[" after the last "(" to avoid adding anything to the list of links. I think this change will get very close to the <10 line limit, but it's probably doable.
 
 
 
