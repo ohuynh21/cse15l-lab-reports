@@ -2,9 +2,9 @@
 ## Markdown Snippet Testing
 
 ### Repositories
-[Mine]()
+[Mine](https://github.com/ohuynh21/markdown-parser)
 
-[Reviewed Group's]()
+[Reviewed Group's](https://github.com/brandoluu/markdown-parser)
 
 ## Test 1:
 
